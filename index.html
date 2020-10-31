@@ -12,7 +12,7 @@
         <!-- Background video -->
 
         <video autoplay muted loop id="bgVid">
-            <source src="./CSS/videos/bg_5.mp4" type="video/mp4">
+            <source src="./CSS/videos/bg_3.mp4" type="video/mp4">
         </video>
 
         <!-- /Background video -->
@@ -21,18 +21,31 @@
         
         <div class="side-bar-container">
             <div>
-                <h3>David C. Fryling</h3>
                 <img src="./CSS/images/me.JPG" alt="David">
                 <ul>
-                    <li href="#about" id="link">About David</li>
-                    <li href="#portfolio" id="link">David's Portfolio</li>
-                    <li href="#contact" id="link">Contact David</li>
+                    <a href="#home" id="link">Home</a><br>
+                    <a href="#about" id="link">About David</a><br>
+                    <a href="#portfolio" id="link">David's Portfolio</a><br>
+                    <a href="#github" id="link">David's Github</a><br>
+                    <a href="#contact" id="link">Contact David</a><br>
                 </ul>
             </div>
         </div>
     
         <!-- /Navbar -->
 
+        <!-- Home -->
+
+        <div id="home">
+            <div class="home-wrapper">
+                <div>
+                    <h1>David C. Fryling</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- /Home -->
+        
         <!-- About Section -->
 
         <div id="about">
@@ -59,16 +72,33 @@
         
         <!-- /Portfolio Section -->
 
+        <!-- Github Section -->
+
+        <div id="github">
+            <div class="general-container">
+                <div>
+                    <h1>David's Github</h1>
+                    <P>Link to my Github using image...</P>
+                </div>
+            </div>
+        </div>
+        
+        <!-- /Github Section -->
+
         <!-- Contact Section -->
 
         <div id="contact">
             <div class="general-container">
                 <div>
                     <h1>Contact David</h1>
+                    <p>Please fill the form out to contact David</p>
                         <form>
-                            <input>
-                            <input>
-                            <input>
+                            <input type="text" value="" placeholder="Please enter your name">
+                            <input type="text" value="" placeholder="Please enter your email">
+                            <input type="text" value="" placeholder="Please enter a message for David">
+                            <div class="submit">
+                                <input type="submit" value="Submit">       
+                            </div>
                         </form>
                 </div>
             </div>
