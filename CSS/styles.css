@@ -1,3 +1,54 @@
-html {
+/* -- General Styles -- */
 
+html {
+    font-family: sans-serif;
+    font-size: 100%;
+    -webtkit-tap-highlight-color: rgba(0,0,0,0);
+    -webtkit-text-size-adjust: 100%;
+    -ms-text-size-adjst: 100%;
+}
+
+body {
+    font-size: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    color: rgb(14, 39, 0);
+    background: no-repeat 50% 50%;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+#bgVid {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* -- Navbar -- */
+
+.side-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(43, 109, 209, 0.5);
+    height: 100%;
+    width: 25%;
+    padding: 5%;
+    padding-top: 50%;
+    line-height: 5;
+    text-align: left;
+}
+
+.side-bar ul {
+    list-style-type: circle;
 }
