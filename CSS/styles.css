@@ -159,12 +159,12 @@ video {
 }
 
 .general-container h1:hover {
-    transform: scale(1.01);
+    transform: scale(1.03);
     transition: transform 1s;
 }
 
 .general-container p:hover {
-    transform: scale(1.01);
+    transform: scale(1.03);
     transition: transform 1s;
 }
 
