@@ -14,7 +14,7 @@ body {
     margin-right: 0;
     font-family: courier, Helvetica, Arial, sans-serif;
     line-height: 1.5;
-    color: rgb(27, 24, 24);
+    color:  rgba(4, 30, 65, 0.9);
     background: no-repeat 50% 50%;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -40,7 +40,7 @@ video {
     filter: grayscale(100%);
 }
 
-/* -- Navbar Styles -- */
+/* -- Navbar Styles & Effects -- */
 
 .side-bar-container {
     position: fixed;
@@ -51,7 +51,7 @@ video {
     width: 15%;
     padding: 2%;
     padding-left: 0%;
-    line-height: 5;
+    line-height: 4;
     text-align: left;
     border: 1px black;
     box-shadow: 3px 0px 10px rgba(0,0,0,0.8);
@@ -63,16 +63,21 @@ video {
     margin-left: 8%;
 }
 
-.side-bar-container img {
+.headshot {
     position: relative;
-    margin-left: 25%;
+    margin-left: 35%;
     height: 40%;
     width: 40%;
     filter: grayscale(0%);
     border: 1px black;
-    border-radius: 70px;
+    border-radius: 25px;
     overflow: hidden;
     box-shadow: 3px 3px 5px rgba(0,0,0,0.8);
+}
+
+.headshot:hover {
+    transform: scale(1.3);
+    transition: transform 1s;
 }
 
 .side-bar-container ul {
@@ -82,15 +87,34 @@ video {
 
 .side-bar-container a {
     color: rgb(241, 241, 241);
+    font-size: 1.2em;
     text-decoration: none;
 }
 
 .side-bar-container a:hover {
     cursor: pointer;
-    font-weight: 600;
+    font-weight: 900;
 }
 
-/* -- Home Wrapper Styles -- */
+.thumbnail {
+    display: inline;
+    position: relative;
+    margin-top: 20%;
+    margin-left: 20%;
+    height: 20%;
+    width: 20%;
+    border: 1px black;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.8);
+}
+
+.thumbnail:hover {
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+
+/* -- Home Wrapper Styles & Effects -- */
 
 .home-wrapper {
     position: relative;
@@ -104,7 +128,6 @@ video {
 
 .home-wrapper h1 {
     line-height: 2;
-    color:  rgba(5, 48, 104, 0.8);
     border-bottom: 5px double rgba(5, 48, 104, 0.8);
     padding: .5%;
     font-size: 300%;
@@ -112,12 +135,17 @@ video {
     text-shadow: 2px 2px 5px rgba(0,0,0,0.8);
 }
 
-/* -- General Container Styles -- */
+.home-wrapper h1:hover {
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+
+/* -- General Container Styles & Effects -- */
 
 .general-container {
     position: relative;
     display: block;
-    background-color: rgba(207, 199, 219, 0.8);
+    background-color: rgba(236, 236, 236, 0.8);
     width: 73%;
     margin-left: 20%;
     padding: 2%;
@@ -125,34 +153,47 @@ video {
     line-height: 2;
     text-align: left;
     border: 1px black;
-    border-radius: 8px;
+    border-radius: 3px;
     box-shadow: 3px 3px 10px rgba(0,0,0,0.8);
     text-shadow: 2px 2px 5px rgba(0,0,0,0.8);
 }
 
-/* -- Form Styles -- */
+.general-container h1:hover {
+    transform: scale(1.01);
+    transition: transform 1s;
+}
+
+.general-container p:hover {
+    transform: scale(1.01);
+    transition: transform 1s;
+}
+
+/* -- Form Styles & Effects -- */
 
 form input {
     margin: 2% auto;
     display: block;
-    border-radius: 7px;
+    border-radius: 3px;
     line-height: 2;
     width: 40%;
-    background-color: rgba(250, 250, 250, 0.75);
+    background-color: rgba(250, 250, 250, 0.8);
 }
 
 .submit input[type="submit"] {
     margin: 2% auto;
     display: block;
-    border-radius: 7px;
+    border-radius: 3px;
     line-height: 2;
     width: 20%;
     color: rgb(26, 26, 26);
+    font-weight: 600;
     background-color: rgba(17, 108, 226, 0.8);
 }
 
 .submit input[type="submit"]:hover {
-    box-shadow: inset 2px 2px 3px rgba(0,0,0,0.5);
+    box-shadow: inset 2px 2px 3px rgba(58, 42, 42, 0.8);
     color: rgb(235, 235, 235);
     background-color: rgba(17, 108, 226, 1);
+    transform: scale(1.1);
+    transition: transform 1s;
 }
