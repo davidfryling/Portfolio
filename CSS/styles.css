@@ -164,6 +164,11 @@ video {
     transition: transform 1s;
 }
 
+.general-container summary:hover {
+    transform: scale(1.03);
+    transition: transform 1s;
+}
+
 .general-container p:hover {
     transform: scale(1.03);
     transition: transform 1s;
