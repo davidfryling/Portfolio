@@ -24,10 +24,10 @@
                 <img class="headshot" src="./CSS/images/headshot.jpg" alt="Headshot">
                 <ul>
                     <a href="#home" id="link">Home</a><br>
-                    <a href="#about" id="link">About</a><br>
+                    <a href="#welcome" id="link">Welcome</a><br>
                     <a href="#portfolio" id="link">Portfolio</a><br>
                     <a href="#github" id="link">Github</a><br>
-                    <a href="#contact" id="link">Contact</a><br>
+                    <a href="#connect" id="link">Connect</a><br>
                 </ul>
                 <img class="thumbnail" src="./CSS/images/linkedIn.png" alt="LinkeIn" href=""> <!-- would I want to link to my LinkedIn page? -->
                 <img class="thumbnail" src="./CSS/images/github.jpg" alt="GitHub" href=""> <!-- would I want to link to my GitHub page? -->
@@ -50,11 +50,11 @@
         
         <!-- About Section -->
 
-        <div id="about">
+        <div id="welcome">
             <div class="general-container">
                 <div>
-                    <h1>About David</h1>
-                    <P>Stuff about me...</P>
+                    <h1>Welcome!</h1>
+                    <P>Hello! My name is David. Welcome to my portfolio site. On this site, you will get a glimpse into my work and style. Please feel free to reach out to me if you have any questions or would discuss my work in greater detail. Enjoy!</P>
                 </div>
             </div>
         </div>
@@ -66,8 +66,26 @@
         <div id="portfolio">
             <div class="general-container">
                 <div>
-                    <h1>David's Portfolio</h1>
-                    <P>Stuff from my portfolio...</P>
+                    <h1>My Portfolio</h1>
+                    <details> <!-- would I be able to slow this transition? -->
+                        <summary>Current Projects</summary>
+                        <p>
+                            <span>The CCP Connection:</span><!-- will not bold... --> This is one of the project ideas that luanched me into computer programming. The current process for high school students signing up for college classes is composed of many pieces of paper and what seems like an endless stream of emails. The CCP Connection is a web application that intends to bring all stakeholders to one, single online portal to manage the entire course request process from start to finish. 
+                            <br>
+                            <br>
+                            <span>Help Ticket App:</span> To manage technical issues and provide support to users of the web app, I will need a help ticket web app to systematically manage issues and track responses.
+                        </p>
+                    </details>
+                    <details> <!-- would I be able to slow this transition? -->
+                        <summary>Future Projects</summary>
+                        <p>
+                            <span>The C#/.NET Live Project:</span> This will be one of my final live-projects as part of The Tech Academy's C#/.NET coding bootcamp. More information to come.
+                        </p>
+                    </details>
+                    <details> <!-- would I be able to slow this transition? -->
+                        <summary>Past Projects</summary>
+                        <p>Coming soon...</p>
+                    </details>
                 </div>
             </div>
         </div>
@@ -79,8 +97,8 @@
         <div id="github">
             <div class="general-container">
                 <div>
-                    <h1>David's Github</h1>
-                    <P>Link to my Github using image...</P>
+                    <h1>My Github</h1>
+                    <P>Could I just get rid of this section and use thumbnails on the side bar?</P>
                 </div>
             </div>
         </div>
@@ -89,17 +107,17 @@
 
         <!-- Contact Section -->
 
-        <div id="contact">
+        <div id="connect">
             <div class="general-container">
                 <div>
-                    <h1>Contact David</h1>
-                    <p>Please fill the form out to contact David</p>
+                    <h1>Connect</h1>
+                    <p>Please fill out the form below to connect with me.</p>
                         <form>
                             <input type="text" value="" placeholder="Please enter your name">
                             <input type="text" value="" placeholder="Please enter your email">
                             <input type="text" value="" placeholder="Please enter a message for David">
                             <div class="submit">
-                                <input type="submit" value="Submit">       
+                                <input type="submit" value="Connect">       
                             </div>
                         </form>
                 </div>
@@ -108,8 +126,12 @@
         
         <!-- /Contact Section -->
         
-        <!-- Footer -->
+        <!-- Footer --> <!-- can't get it to be at the bottom... -->
         
+        <div class="footer"> 
+            <h3>www.davidfryling.com &nbsp;|&nbsp; 2021</h3> 
+        </div>
+
         <!-- /Footer -->
 
     </body>
