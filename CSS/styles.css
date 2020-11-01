@@ -208,6 +208,8 @@ form input {
     transition: transform 1s;
 }
 
+/* -- Footer Styles & Effects -- */
+
 .footer {
     bottom: 0;
     position: relative;
@@ -220,4 +222,9 @@ form input {
     line-height: 2;
     background-color: rgba(102, 102, 102, 0.8);
     text-align: right;
+}
+
+.footer:hover {
+    transform: scale(1.03);
+    transition: transform 1s;
 }
