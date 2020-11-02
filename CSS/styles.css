@@ -230,7 +230,7 @@ form input {
     z-index: 1;
 }
 
-.footer:hover {
+.footer h3:hover {
     transform: scale(1.01);
     transition: transform 1s;
 }
