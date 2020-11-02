@@ -113,6 +113,7 @@ video {
 }
 
 .thumbnail:hover {
+    cursor: pointer;
     transform: scale(1.1);
     transition: transform 1s;
 }
@@ -222,7 +223,7 @@ form input {
     bottom: 0;
     width: 81.5%;
     padding-right: 4%;
-    margin-left: 17.75%;
+    margin-left: 17%;
     margin-bottom: 0;
     line-height: 2;
     background-color: rgba(102, 102, 102, 0.8);
