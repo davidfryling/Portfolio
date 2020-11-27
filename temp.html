@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="eng">
+
+    <head>
+        <title>David C. Fryling</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <script src="js/main.js" defer></script>
+    </head>
+
+    <body>
+
+        <!-- REMOVED Background video and REPLACED with image in CSS -->
+
+        <!-- <video autoplay muted loop id="bgVid">
+            <source src="./CSS/videos/bg_9.mp4" type="video/mp4">
+        </video> -->
+
+        <!-- /Background video -->
+    
+        <!-- Side navigatoin bar --> 
+        
+        <div class="side-bar-container">
+            <div>
+                <img class="headshot" src="./css/images/headshot.jpg" alt="Headshot">
+                <ul>
+                    <a id="aboutMenu" onload="showAbout()" onclick="showAbout()">About Me</a><br>
+                    <a id="currentMenu" onclick="showCurrent()">Current Projects</a><br>
+                    <a id="pastMenu" onclick="showPast()">Past Projects</a><br>
+                    <a id="futureMenu" onclick="showFuture()">Future Projects</a><br>
+                    <a id="connectMenu" onclick="connectPopup()">Connect</a><br>
+                </ul>
+                <a href="https://www.linkedin.com/in/david-fryling-37ab21177/" target="_blank">
+                    <img class="thumbnail" src="./css/images/linkedIn.png" alt="LinkeIn">
+                </a>
+                <a href="https://github.com/davidfryling" target="_blank">
+                    <img class="thumbnail" src="./css/images/github.jpg" alt="GitHub">
+                </a> 
+            </div>
+        </div>
+    
+        <!-- /Sidebar -->
+
+        <!-- Header -->
+
+        <div class="home-wrapper">
+            <div id="home">
+                <h1>David C. Fryling</h1>
+            </div>
+        </div>
+
+        <!-- /Header -->
+        
+        <!-- Main content that will be shown, one at a time, with JS -->
+
+        <div class="general-container">
+            <div id="about">
+                <h1>About Me</h1>
+                <p>
+                    I have never been a person that waits for someone else to solve a problem. If I see a problem, I will do what I can to find a solution for it. 
+                    <br>
+                    <br>
+                    Over the past few years, I have started to look through the lens of a software developer, seeing solutions to problems my colleagues and I face every day in the form of software. 
+                    <br>
+                    <br>
+                    I recently decided to take the leap and start a coding bootcamp with The Tech Academy to turn my software ideas into a reality. It is one of the best decisions I have made in my life.
+                    <br>
+                    <br>
+                    I created this site as a place to share my projects. I encourage you to reach out to me if you want to collaborate or discuss any of my projects in more detail.
+                </p>
+            </div>
+            <div id="current">
+                <h1>Current Project</h1>
+                    <h3>The CCP Connection</h3>
+                        <p>
+                            This web application aims to solve a real-world problem facing partnering high schools and colleges in central Ohio. The current process for high school students signing up for college classes is composed of many pieces of paper and what seems like an endless stream of emails. The process is confusing, fragmented, and riddled with failure points. The CCP Connection will connect all of the stakeholders via a single online portal that manages the entire course request process, from start to finish. 
+                            <br>
+                            <br>
+                            By the end of this project, I will have completed the following using an Agile approach of Continuous Development and Improvement:
+                            <ul>
+                                <li>Spec’d and designed the web app's architecture</li>
+                                <li>Designed and built the UI using HTML5, CSS3, JavaScript</li>
+                                <li>Designed and built the SQL server database</li>
+                                <li>Designed and built the server-side logic with C# & the .NET framework</li>
+                                <li>Launched the web app with Azure Cloud Hosting</li>
+                            </ul>
+                        </p>
+            </div> 
+            <div id="past">
+                <h1>Past Projects</h1>
+                    <h3>HTML/CSS/JavaScript Projects</h3>
+                        <p>
+                            Below are a list of front-end coding challenges I have completed as part of my bootcamp thus far:
+                        </p>
+                        <ul>
+                            <li>IndieEric Website</li>
+                            <li>To-Do App</li>
+                            <li>Random Group Generator</li>
+                            <li>TicTacToe</li>
+                            <li>Calculator</li>
+                            <li>Pizza Order</li>
+                        </ul>
+                        <hr>
+                    <h3>Python Projects</h3>
+                        <p>
+                            Below are a list of Python coding challenges I have completed as part of my bootcamp thus far:
+                        </p>
+                        <ul>
+                            <li>Rock Paper Scissors</li>
+                            <li>Stone of Delkai (text-based adventure game)</li>
+                        </ul>
+            </div>
+            <div id="future">
+                <h1>Future Projects</h1>
+                    <h3>C#/.NET Live Project</h3>
+                        <p>
+                            This will be my final live-projects as part of The Tech Academy's C#/.NET coding bootcamp.
+                        </p>
+                        <hr>
+                    <h3>Help Ticket App</h3>
+                        <p>
+                            This web application will manage technical issues and provide support to users of my web apps. It will generate help tickets and systematically manage issues and track responses.
+                        </p>
+            </div> 
+        </div>
+    
+        <!-- /Main content -->
+
+        <!-- Connect Form that will be pop with JS-->
+
+        <div id="connect" class="popup-container">
+                <div>
+                    <h1>Connect</h1>
+                    <p>Please fill out the form below to connect with me.</p>
+                        <form>
+                            <input type="text" value="" placeholder="Please enter your name">
+                            <input type="text" value="" placeholder="Please enter your email">
+                            <input type="text" value="" placeholder="Please enter a message for David">
+                            <div class="submit">
+                                <input type="submit" value="Connect">       
+                            </div>
+                        </form>
+                </div>
+        </div>
+        
+        <!-- /Connect Section -->
+        
+        <!-- Footer -->
+        
+        <div class="footer"> 
+            <h3>www.davidfryling.com &nbsp;|&nbsp; 2021</h3> 
+        </div>
+
+        <!-- /Footer -->
+
+    </body>
+
+</html>
