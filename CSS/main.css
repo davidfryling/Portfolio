@@ -1,7 +1,7 @@
 /* -- General Styles -- */
 
 html {
-    font-family: Times, courier, sans-serif;
+    font-family: sans-serif;
     font-size: 100%;
     -webtkit-tap-highlight-color: rgba(0,0,0,0);
     -webtkit-text-size-adjust: 100%;
@@ -12,7 +12,7 @@ body {
     font-size: 1em;
     margin-left: 0;
     margin-right: 0;
-    font-family: Times, courier, Helvetica, Arial, sans-serif;
+    font-family: sans-serif;
     line-height: 1.5;
     letter-spacing: 1px;
     color: rgba(4, 30, 65, 0.9);
@@ -144,7 +144,7 @@ body {
     font-size: 300%;
     letter-spacing: 2px;
     text-align: left;
-    text-shadow: 2px 2px 5px rgba(0,0,0,0.8);
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 }
 
 .header-wrapper h1:hover {
@@ -241,6 +241,21 @@ body {
 }
 
 .popup-container p:hover {
+    transform: scale(1.01);
+    transition: transform 1s;
+}
+
+.popup-container h2 {
+    position: fixed;
+    display: block;
+    top: 23.5%;
+    right: 1%;
+    font-size: 3em;
+}
+
+.popup-container h2:hover {
+    cursor: pointer;
+    color: black;
     transform: scale(1.01);
     transition: transform 1s;
 }
