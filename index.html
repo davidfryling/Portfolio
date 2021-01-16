@@ -76,45 +76,102 @@
                             This web application aims to solve a real-world problem facing partnering high schools and colleges in central Ohio. The current process for high school students signing up for college classes is composed of many pieces of paper and what seems like an endless stream of emails. The process is confusing, fragmented, and riddled with failure points. The CCP Connection will connect all of the stakeholders via a single online portal that manages the entire course request process, from start to finish. 
                             <br>
                             <br>
-                            By the end of this project, I will have completed the following using an Agile approach of Continuous Development and Improvement:
+                            My work on the project thus far has served two purposes: 1) reinforce the skills learned after each course and 2) act as a proof of concept, demonstrating that the project idea is viable. 
+                            <br>
+                            <br>
+                            HTML/CSS Only UI (<a href="https://www.theccpconnection.com/" target="_blank">Live Site</a> | <a href="https://github.com/davidfryling/The-CCP-Connection" target="_blank">GitHub</a>)
                             <ul>
-                                <li>Spec’d and designed the web app's architecture</li>
-                                <li>Designed and built the UI using HTML5, CSS3, JavaScript</li>
-                                <li>Designed and built the SQL server database</li>
-                                <li>Designed and built the server-side logic with C# & the .NET framework</li>
-                                <li>Launched the web app with Azure Cloud Hosting</li>
+                                <li>
+                                    This proof of concept was an attempt to build all HTML and CSS from scratch, forcing me to understand how these fundamental parts of web development worked together to bring something that only existed in my head and make it a reality. The POC ended with nearly 20 HTML pages with a single, shared, CSS file that provided a common styling to all pages.
+                                </li>
+                            </ul>
+                            <br>
+                            <br>
+                            JavaScript/HTML/CSS UI (<a href="https://www.ccpconnection.com/" target="_blank">Live Site</a> | <a href="https://github.com/davidfryling/CCP-Connection" target="_blank">GitHub</a>)
+                            <ul>
+                                <li>
+                                    This proof of concept was a blast! Although the final web app will not be a single-page architecture, I wanted to see if I could dynamically load all of the page content onto a single HTML page with a DOM manipulation with JavaScript. This forced me to rethink the flow and design of the website, streamlining the look and feel of the application. I also spent time working with the CSS to make sure that the layout of the webpages was responsive and changed when viewed on mobile devices.
+                                </li>
+                            </ul>
+                            <br>
+                            <br>
+                            MS SQL Server Database (<a href="https://github.com/davidfryling/CCPConnection_dB" target="_blank">GitHub</a>)
+                            <ul>
+                                <li>
+                                    This proof of concept was amazing! I first created an Entity Relationship Diagram, normalizing the database so that each table represented only one object of the final app. I then used T-SQL to build the database, tables, key constraints, and even many stored procedures to join data into new views that would need to be rendered in the final web app. 
+                                </li>
+                            </ul>
+                            <br>
+                            <br>
+                            C#/.NET Backend
+                            <ul>
+                                <li>
+                                    I am currently working on the backend and beta version of the web app with the .NET (Core?) Framework with an MVC design pattern in the C# language. I will likely use a database-first approach with Entity Framework to tie the database to the Models and Controllers. The web app will likely be hosted on Azure when it moves to production.
+                                </li>
                             </ul>
                         </p>
             </section> 
             <section id="past">
                 <h1>Past Projects</h1>
-                    <h3>HTML/CSS/JavaScript Projects</h3>
+                    <h3>C#/.NET Projects</h3>
                         <p>
-                            Below are a list of front-end coding challenges I have completed as part of my bootcamp thus far:
+                            Below are a list of C#/.NET coding challenges I have completed as part of my bootcamp thus far (click on each one to view the source code on GitHub):
                         </p>
                         <ul>
-                            <li>IndieEric Website</li>
-                            <li>To-Do App</li>
-                            <li>Random Group Generator</li>
-                            <li>TicTacToe</li>
-                            <li>Calculator</li>
-                            <li>Pizza Order</li>
+                            <li><a href="https://github.com/davidfryling/Basic-C-Sharp-Projects/tree/main/StudentInforomationSystem" target="_blank">
+                                Student Information System Web App (code-first .NET Core MVC)
+                            </a></li>
+                            <li><a href="https://github.com/davidfryling/Basic-C-Sharp-Projects/tree/main/CarInsurance" target="_blank">
+                                Car Insurance Quote Web App (database-first .NET Framework MVC)
+                            </a></li>
+                            <li><a href="https://github.com/davidfryling/Basic-C-Sharp-Projects/tree/main/TwentyOne" target="_blank">
+                                Twenty One Card Console Game
+                            </a></li>
+                        </ul>
+                        <hr>
+                    <h3>HTML/CSS/JavaScript Projects</h3>
+                        <p>
+                            Below are a list of front-end coding challenges I have completed as part of my bootcamp thus far (click on each one to view the source code on GitHub):
+                        </p>
+                        <ul>
+                            <li><a href="https://github.com/davidfryling/HTML-CSS-Projects/tree/main/One-page-website" target="_blank">
+                                IndieEric Website
+                            </a></li>
+                            <li><a href="https://github.com/davidfryling/JavaScript-Projects/tree/main/ToDoApp" target="_blank">
+                                To-Do Widget
+                            </a></li>
+                            <li><a href="https://github.com/davidfryling/JavaScript-Projects/tree/main/RandomGroupGenerator" target="_blank">
+                                Random Group Generator Widget
+                            </a></li>
+                            <li><a href="https://github.com/davidfryling/JavaScript-Projects/tree/main/TicTacToe" target="_blank">
+                                TicTacToe Game
+                            </a></li>
+                            <li><a href="https://github.com/davidfryling/JavaScript-Projects/tree/main/Calculator" target="_blank">
+                                Calculator Widget
+                            </a></li>
+                            <li><a href="https://github.com/davidfryling/JavaScript-Projects/tree/main/PizzaProject" target="_blank">
+                                Pizza Order Widget
+                            </a></li>
                         </ul>
                         <hr>
                     <h3>Python Projects</h3>
                         <p>
-                            Below are a list of Python coding challenges I have completed as part of my bootcamp thus far:
+                            Below are a list of Python coding challenges I have completed as part of my bootcamp thus far (click on each one to view the source code on GitHub):
                         </p>
                         <ul>
-                            <li>Rock Paper Scissors</li>
-                            <li>Stone of Delkai (text-based adventure game)</li>
+                            <li><a href="https://github.com/davidfryling/Python-Projects/blob/master/rock_paper_scissors.py" target="_blank">
+                                Rock Paper Scissors Game
+                            </a></li>
+                            <li><a href="https://github.com/davidfryling/Python-Projects/blob/master/sod.py" target="_blank">
+                                Stone of Delkai Text-based Adventure Game
+                            </a></li>
                         </ul>
             </section>
             <section id="future">
                 <h1>Future Projects</h1>
                     <h3>C#/.NET Live Project</h3>
                         <p>
-                            This will be my final live-projects as part of The Tech Academy's C#/.NET coding bootcamp.
+                            This will be my final project as part of The Tech Academy's C#/.NET coding bootcamp. I will get a chance to work on a live product with a team in a 2-week sprint.
                         </p>
                         <hr>
                     <h3>Help Ticket App</h3>
